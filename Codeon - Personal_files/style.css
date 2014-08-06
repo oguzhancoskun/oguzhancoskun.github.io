@@ -12,12 +12,12 @@
 html, 
 body {
     height: 100%;
-    color: #121212;
+    color: #fff;
 }
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #121212;
+    color: #fff;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -66,7 +66,7 @@ a:hover,
 a:focus {
     outline: 0; 
     background: transparent;
-    color: #35bdf6 !important;
+    color: red !important;
     text-decoration: none;	  
 }
 .padding-80{
@@ -176,15 +176,22 @@ color: red !important;
 
 }
 
-.oguzhan{color:black;}
+.oguzhan{text-align: center; color:black;}
 
-.oguzhan:hover{
+.oguzhan:hover{text-align:center;
     color:red !important;
     }
 
-.asgardcopy{color:black;}
+    .design{text-align: center; color:black;}
 
-.asgardcopy:hover{
+.design:hover{text-align:center;
+    color:red !important;
+    }
+
+
+.asgardcopy{text-align:center; color:black;}
+
+.asgardcopy:hover{text-align: center;
     color:red !important;
     }
 
@@ -470,8 +477,6 @@ z-index: 3;
 }
 
 .home-inner img{
-    border-radius: 50%;
-    -webkit-border-radius:50%;
     margin: 20px 0;
     max-width:100%;
 }
